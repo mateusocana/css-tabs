@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600,700;);
+ 
+body, html {
+          height: 100%;
+          margin: 0;
+          -webkit-font-smoothing: antialiased;
+          font-weight: 100;
+          text-align: center;
+          font-family: 'Open Sans';
+      }
+      
+      .tabs input[type=radio] {
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+      }
+      .tabs {
+        width: 938px;
+        float: none;
+        list-style: none;
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+      }
+      .tabs li{
+        float: left;
+      }
+      .tabs label {
+          display: block;
+          padding: 15.7px 20px;
+          color: #BBBBBB;
+          font-size: 14px;
+          font-weight: normal;
+          font-family: 'Open Sans';
+          background: rgba(255,255,255,0.2);
+          cursor: pointer;
+          position: relative;
+          top: 3px;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+      }
+      
+      [id^=tab]:checked + label {
+        border-bottom: 3px solid #222;
+        font-family: 'Open Sans';
+        color: #222222;
+        top: 0;
+      }
+      
+      [id^=tab]:checked ~ [id^=tab-content] {
+          display: block;
+      }
+      .tab-content{
+        z-index: 2;
+        display: none;
+        text-align: left;
+        width: 100%;
+        font-size: 11px;
+        line-height: 140%;
+        padding-top: 10px;
+        background: #fff;
+        color: #333333;
+        padding: 15px;
+        color: white;
+        border: 1px solid #ECECEC;
+        position: absolute;
+        top: 53px;
+        left: 0;
+        color: #333;
+        box-sizing: border-box;
+        -webkit-animation-duration: 0.5s;
+        -o-animation-duration: 0.5s;
+        -moz-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+      }
