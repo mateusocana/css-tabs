@@ -1,4 +1,4 @@
-### Tabs in pure CSS
+## Tabs in pure CSS
  
 - First clone in your local repository project
 ```
