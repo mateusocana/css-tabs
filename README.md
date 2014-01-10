@@ -8,7 +8,7 @@ git clone https://github.com/mateusocana/css-tabs.git
 ```
 cd css-tabs
 ```
-- to edit the HTML
+- To edit the HTML and CSS directly from the terminal
 ```
 vim index.html 
 ```
