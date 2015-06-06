@@ -16,4 +16,4 @@ vim index.html
 ```
 vim style.css
 ```
-- Press ESC and ```wp:``` to return on terminal
+- Press ESC and ```wq:``` to return on terminal
